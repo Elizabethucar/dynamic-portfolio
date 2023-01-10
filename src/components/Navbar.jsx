@@ -9,8 +9,8 @@ const handleNav = () =>{
 }
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Hello.</h1>
+    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#6939bb]'>
+      <h1 className='w-full text-3xl font-bold text-[#6939bb]'>Dockyards.</h1>
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
@@ -23,14 +23,14 @@ const handleNav = () =>{
       <div onClick={handleNav} className='block md:hidden'>
         {!nav ? <AiOutlineMenu  size={20} /> :  <AiOutlineClose size={20} />}
       </div>
-      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r-gray-900 bg-[#000300] ease-in-out duration-500 md:hidden' : 'fixed left-[-100%]'}>
+      <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full b-[#6939bb] bg-[#000300] ease-in-out duration-500 md:hidden' : 'fixed left-[-100%]'}>
 
-        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'>Hello.</h1>
+        <h1 className='w-full text-3xl font-bold text-[#6939bb]] m-4'>Dockyards.</h1>
 
-        <li className='p-4 border-b border-gray-600'>Home</li>
-        <li className='p-4 border-b border-gray-600'>Company</li>
-        <li className='p-4 border-b border-gray-600'>Rescources</li>
-        <li className='p-4 border-b border-gray-600'>About</li>
+        <li className='p-4 border-b border-[#6939bb]'>Home</li>
+        <li className='p-4 border-b border-[#6939bb]'>Company</li>
+        <li className='p-4 border-b border-[#6939bb]'>Rescources</li>
+        <li className='p-4 border-b border-[#6939bb]'>About</li>
         <li className='p-4'>Contact</li>
         </ul>
       </div>

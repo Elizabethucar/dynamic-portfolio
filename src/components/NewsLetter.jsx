@@ -11,9 +11,9 @@ const NewsLetter = () => {
   <div className='my-4'>
     <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
       <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='Enter email' />
-      <button className='bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 px-6  mx-auto py-3 text-black'>Demo</button>
+      <button className='bg-[#6939bb] w-[200px] rounded-md font-medium ml-4 my-6 px-6  mx-auto py-3 text-black'>Demo</button>
     </div>
-    <p>We care about the protection of our data. Read our <span className='text-[#00df9a]'>Privacy Policy</span></p>
+    <p>We care about the protection of our data. Read our <span className='text-[#6939bb]'>Privacy Policy</span></p>
   </div>
    </div>
     </div>
